@@ -1,0 +1,32 @@
+body {
+    margin-top: 90px;
+}
+
+#menu li {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+    transition: 1s;
+    font-family: calibri, arial, verdana;
+    font-size: 20px;
+    line-height: 50px;
+    background-color: #887555;
+    width: 180px;
+    border-bottom: 3px solid orange;
+}
+
+#menu span {
+    display: block;
+    margin-top: -60px;
+}
+
+#menu a:hover {
+    background-color: #5F3B06;
+    color: #887555;
+}
