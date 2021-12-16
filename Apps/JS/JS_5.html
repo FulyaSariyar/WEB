@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamik Div Oluşturma</title>
+    <style>
+        .kutu {
+            width: 200px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            background: #FFA17F;
+            color: white;
+            margin: 5px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <button style="background-color:#FFA17F;" id="btn1">OLUŞTUR</button>
+    <div id="panel">
+
+        <script>
+            var btn1 = document.querySelector("#btn1");
+            var panel = document.querySelector("#panel");
+
+            btn1.onclick = function() {
+
+                var div = document.createElement("div");
+                div.textContent = "Merhaba Dünya";
+                div.classList = "kutu";
+                panel.appendChild(div);
+            }
+        </script>
+</body>
+
+</html>
