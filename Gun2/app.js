@@ -50,3 +50,4 @@ for (var i = 0; i < dizi1.length; i++) {
 }
 
 dizi1[10] = "Ömer";
+document.getElementById("demo").innerHTML = "My First JavaScript";
