@@ -1,0 +1,21 @@
+body{
+    background: gray;
+    }
+    #liste img{
+    padding:5px;
+    border:1px #232333 solid;
+     
+    }
+    #sonuc{
+    float:left;
+    width: 260px;
+    height: 260px;
+    font-size:2em;
+    padding:20px;
+    background:lightgray;
+     
+    }
+    #pc-sonuc{
+    float:left;
+     
+    }
