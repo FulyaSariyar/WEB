@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>JQuery HTML Elemanı Oluşturma ve Kaldırma</title>
+</head>
+<body style="background-color: black;">
+    <button id="btn">OLUŞTUR</button>
+    <div id="container"></div>
+    <script>
+        var sayac=1;
+        $("#btn").click(function(){
+            var kutu=$("<div>");
+            kutu.addClass("kutu");
+            kutu.html("Kutu "+sayac);
+            sayac++;
+            kutu.css({backgroundColor:"Gray",width:"200px",height:"200px",textAlign:"center",
+                      float:"left",margin:"10px",color:"#FFFFFF",lineHeight:"200px",fontSize:"30px"});
+            $("#container").append(kutu);
+            kutu.on("click",function(){
+                $(this).remove();
+            })
+        })
+        
+    </script>
+</body>
+</html>
