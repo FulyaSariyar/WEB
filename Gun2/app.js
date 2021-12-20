@@ -8,7 +8,7 @@ degisken1 = true;
 degisken1[1, 2, 3, 14];
 degisken1 = {
     ad: "Zekeriyacan",
-    soyad: "Abdullah",
+    "soyad": "Abdullah",
     yas: 4
 };
 degisken1.telefon = "00057007070";
